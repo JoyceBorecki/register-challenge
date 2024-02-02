@@ -4,7 +4,7 @@ Este repositório foi criado com o intuito de armazenar o código fonte para a c
 
 # Linguagem utilizada e estrutura do repositório
 
-Este projeto foi desenvolvido utilizando o framework front-end Bootstrap para fornecer estruturas de CSS, HTML, CSS, PHP, além de possuir integração com banco de dados MySQL. O repositório foi organizado em duas pastas entituladas "styles" que armazena o código CSS e uma pasta entitulada "assets" para armazenar as imagens que serão utilizadas na tela de cadastro. Cada arquivo possui uma nomeação específica para fácil identificação e distinção
+Este projeto foi desenvolvido utilizando o framework front-end Bootstrap para fornecer estruturas de CSS, HTML, CSS, PHP, além de possuir integração com banco de dados MySQL e utilização da biblioteca de fontes do Google. O repositório foi organizado em duas pastas entituladas "styles" que armazena o código CSS e uma pasta entitulada "assets" para armazenar as imagens que serão utilizadas na tela de cadastro. Cada arquivo possui uma nomeação específica para fácil identificação e distinção. 
 
 # Estrutura do banco de dados
 
