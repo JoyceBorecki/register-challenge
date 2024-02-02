@@ -32,12 +32,8 @@ if(isset($_POST['submit'])) {
                 echo "Failed: " . mysqli_error($conn);
             }
         }
-    } while (false);
-
-
-        
+    } while (false);        
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +58,6 @@ if(isset($_POST['submit'])) {
         $result = mysqli_query($conn, $sql);
         $row = mysqli_fetch_assoc($result);
 
-
         if (!empty($errorMessage) ) {
             echo "
             <div class='alert alert-warning alert-dismissible fade show' role='alert'>
@@ -71,10 +66,8 @@ if(isset($_POST['submit'])) {
           </div>
             ";
         }
-
         ?>
 
-        
         <form action="" class="form" method="post">
             <fieldset>
                 <div class="container text-center">
