@@ -1,10 +1,10 @@
 # register-challenge
 
-Este repositório foi criado com o intuito de armazenar o código fonte para a criação da tela de cadastro para o desafio gerado pela empresa Alphacode. A tela de cadastro conta com um formulário onde o usuário deverá digitar seu nome, e-mail, profissão,
+Este repositório foi criado com o intuito de armazenar o código fonte para a criação da tela de cadastro para o desafio gerado pela empresa Alphacode.
 
 # Linguagem utilizada e estrutura do repositório
 
-Este projeto foi desenvolvido utilizando o framework Bootstrap, HTML, CSS, JavaScript e PHP, além de possuir integração com banco de dados MySQL. O repositório foi organizado em duas pastas entituladas "styles" que armazena o código CSS e uma pasta entitulada "assets" para armazenar as imagens que serão utilizadas na tela de cadastro. Cada arquivo possui uma nomeação específica para fácil identificação e distinção
+Este projeto foi desenvolvido utilizando o framework Bootstrap, HTML, CSS, PHP, além de possuir integração com banco de dados MySQL. O repositório foi organizado em duas pastas entituladas "styles" que armazena o código CSS e uma pasta entitulada "assets" para armazenar as imagens que serão utilizadas na tela de cadastro. Cada arquivo possui uma nomeação específica para fácil identificação e distinção
 
 # Estrutura do banco de dados
 
@@ -20,3 +20,6 @@ CREATE TABLE IF NOT EXISTS contatos (
     celular VARCHAR(15)
 );
 
+# Como o projeto funciona?
+
+A tela de cadastro conta com um formulário onde o usuário deverá digitar seu nome, data de nascimento, e-mail, profissão, telefone. Caso todos os campos atendam aos critérios pré-estabelecidos, o usuário terá um cadastro efetuado com sucesso, caso contrário, seu cadastro não será realizado. A tela também mostrará o cadastro realizado pelo usuário com os dados fornecidos, caso queira alterar ou excluir há um icon para cada ação disponível. A alteração resultará em uma tela onde o usuário poderá alterar todos os campos, caso seja necessário.
